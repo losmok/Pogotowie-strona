@@ -1,0 +1,43 @@
+* {
+    font-family: Arial;
+    margin: 0;
+}
+
+.baner1, .baner2, .baner3, .footer1, .footer2, .footer3 {
+    background-color: saddlebrown;
+    color:white;
+    height: 100px;
+    float: left;
+}
+
+.baner1, .footer1 { 
+    width: 55%;
+    font-size: 120%;
+}
+
+.baner2, .footer2 {
+    width: 25%;
+}
+
+.baner3, .footer3 {
+    width: 20%;
+    text-align: right;
+}
+
+.main { 
+    background-color: snow;
+    padding: 70px;
+    clear: both;
+}
+
+a {
+    border: 2px dotted saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
